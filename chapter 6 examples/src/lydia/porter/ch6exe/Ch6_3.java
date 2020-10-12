@@ -49,9 +49,20 @@ public class Ch6_3 {
 
 		System.out.println("Your GPA is " + gpa);
 		/*
-		 * relational operators
+		 * relational operators always return a true or false value
 		 * <
-		 * a>b
+		 * (a>b && c<d)|| z>x
+		 * a<=b || c>=d if one of the expressions is true they will both send back true
+		 * <=
+		 * >=
+		 * == is it equal to something else? comparison; but 
+		 * = assignment
+		 * != not equal to something
+		 * 
+		 * && check two things are both true; compare two logical expressions to one another
+		 * || or 
+		 * ! not
+		 * 
 		 * 
 		 * 
 		 * */
