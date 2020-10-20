@@ -95,7 +95,7 @@ public class GuessMyNumber1_4 {
 					 else {
 						 System.out.println("Guess lower.");
 					 } //else
-				}// has next
+				}// guess count
 				
 				else {
 					input.nextLine();
@@ -104,7 +104,7 @@ public class GuessMyNumber1_4 {
 				input.nextLine();
 				if (win == true) {
 					continue;
-				}
+				} // win
 							
 		if (win == true) {
 			System.out.println("you win");
@@ -112,18 +112,19 @@ public class GuessMyNumber1_4 {
 		else {
 			System.out.println("you lose");
 		}//else
-		
+				}	
+		}
 		input.close();
-	}
-
+	} 
+				
 	public static void main(String[] args) {
-		//new GuessMyNumber1_4(); 
+		new GuessMyNumber1_4(); 
 		
-		//this allows you to run the program above
+		//this allows you to run the program above (the guess my number)
 		//void means run it but don't return data
 		
 		//nested for loop
-		for (int dayOfWeek = 0; dayOfWeek < 7; dayOfWeek++) {
+	/*	for (int dayOfWeek = 0; dayOfWeek < 7; dayOfWeek++) {
 			System.out.print("Day " + dayOfWeek + ": ");
 			for (int hour = 0; hour < 24; hour++) {
 				System.out.println("H " + hour);
@@ -137,7 +138,8 @@ public class GuessMyNumber1_4 {
 		}//hour
 		System.out.println("All done");
 	}//day
-		
+	
+	*/
 	}//void
 
-}//
+} //for int guess count
