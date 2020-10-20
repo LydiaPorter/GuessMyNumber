@@ -1,6 +1,10 @@
 package lydia.porter.guess;
 import java.util.Random;
 import java.util.Scanner;
+/*
+ * Lydia Porter
+ * 6,7th
+ * */
 
 public class GuessMyNumber {
 
