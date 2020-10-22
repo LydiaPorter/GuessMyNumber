@@ -83,7 +83,7 @@ public class GuessMyNumber1_4 {
 				if (input.hasNextInt()) {
 					guess = input.nextInt();
 					if (guess_count != totalGuess-1) {
-					//}
+					
 					 if (guess == the_number) {
 						 System.out.println("You got it! Great job!");
 						 win = true;
